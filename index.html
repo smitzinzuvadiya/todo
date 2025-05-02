@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class = "header-section">
+        <div class ="left-logo"><img src="public/Todo-removebg-preview.png" class="img"></div>
+        <div class="middle">To Do List</div>
+        <div class="last"><a href="login.html" class="last">Login</a></div>
+    </section>
+    <section class="hero-section">
+        <div class="todo-input-container">
+            <input type="text" class="todo-input" placeholder="Add a new task..." id="todo-input">
+            <div><button onclick="add()">add</button>
+                <button onclick="remove()">Remove</button></div>
+        </div>
+        <div class="display" id="display"></div>
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
